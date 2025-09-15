@@ -1,7 +1,7 @@
 # Biblioteca RMI
 
 README para compilar, ejecutar y probar la aplicación **Biblioteca RMI** desarrollada en Java usando SQLite y Java RMI.
-
+Video: https://drive.google.com/drive/folders/1mMDJyABePbFGx8BXwhj1gK92wt-xvwcG?usp=sharing
 ---
 
 ## 1. Descripción corta
