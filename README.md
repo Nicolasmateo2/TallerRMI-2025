@@ -285,10 +285,3 @@ pause
 
 ---
 
-Si quieres, puedo:
-
-* Generar los `.bat` listos para que los descargues.
-* Empaquetar un `jar` ejecutable (fat-jar) con la dependencia de sqlite incluida.
-* Modificar `LibraryServer.java` para usar explícitamente `Naming.rebind("rmi://" + hostAddress + ":1099/" + serviceName, servicio);` y darte el código listo.
-
-Dime cuál de estas tareas prefieres y lo hago.
