@@ -270,7 +270,11 @@ pause
 ```bat
 @echo off
 REM Ejecutar cliente apuntando a localhost
-java -cp "out;lib/sqlite-jdbc-3.36.0.3.jar" com.unal.rmilibrary.LibraryClient localhost
+# Primer servidor en 127.0.0.2
+java -cp "out;sqlite-jdbc-3.45.2.0.jar" com.unal.rmilibrary.LibraryServer jdbc:sqlite:library1.db 1099 127.0.0.2
+
+# Segundo servidor en 127.0.0.3
+java -cp "out;sqlite-jdbc-3.45.2.0.jar" com.unal.rmilibrary.LibraryServer jdbc:sqlite:library2.db 1100 127.0.0.3
 pause
 ```
 
