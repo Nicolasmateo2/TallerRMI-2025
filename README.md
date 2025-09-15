@@ -276,12 +276,4 @@ pause
 
 ---
 
-## 13. Recomendaciones finales y mejoras
-
-* **No usar SQLite para producción** con muchos clientes concurrentes; usar una BD servidor (Postgres/MySQL) para mayor concurrencia y robustez.
-* Considerar agregar manejo de timeouts o reintentos en el `LibraryClient` para mejorar UX cuando hay latencia o fallos de red.
-* Proteger el acceso a RMI (VPN / red privada / RMI sobre SSL) si vas a exponer el servidor fuera de una red de confianza.
-* Empaquetar en un `fat-jar` si no deseas manejar classpath manualmente.
-
----
 
