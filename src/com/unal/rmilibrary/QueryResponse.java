@@ -3,7 +3,9 @@ package com.unal.rmilibrary;
 
 import java.io.Serializable;
 
+// Respuesta de una consulta que es serializable para la BD
 public class QueryResponse implements Serializable {
+
     public final boolean found;
     public final String title;
     public final int totalCopies;

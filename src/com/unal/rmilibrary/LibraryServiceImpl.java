@@ -4,10 +4,11 @@ package com.unal.rmilibrary;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.sql.SQLException;
-import java.time.LocalDate;
 import java.util.Optional;
 
+// Implementación del servicio de biblioteca extiende a UnicastRemoteObject que permite el uso de RMI
 public class LibraryServiceImpl extends UnicastRemoteObject implements LibraryService {
+
     private final BookDAO dao;
 
     protected LibraryServiceImpl(String jdbcUrl) throws RemoteException, SQLException {
